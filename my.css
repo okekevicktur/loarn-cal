@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    p{
+        font-size: 10px;
+    }
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(202, 86%, 94%);
+    align-content: center;
+
+
+}
+
+
+.calculator{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 20px rgba(204, 204, 204, 0.323);
+    background-color: white\;
+}
+
+.formArea{
+    width: 50%;
+    height:100%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 30px;
+}
+.result{
+    width: 50%;
+    height: 65vh;
+    background-color: hsl(202, 55%, 16%);
+    border-radius: 0 10px 10px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.result p{
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header p{
+    text-decoration:underline;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: hsl(202, 86%, 94%);
+}
+
+
+.amoutinput{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.amoutinput p{
+    background-color: hsl(202, 86%, 94%);
+    padding: 4.5px 10px;
+    font-size: 18px;
+}
+
+.secinput{
+    display: flex;
+    margin-top: 5px;
+}
+
+.secinput p{
+    background-color: hsl(202, 86%, 94%);
+    padding: 10px 20px;
+}
+
+.cont2{
+    display: flex;
+    gap: 20px;
+}
+
+.repayment{
+    background-color: hsl(202, 86%, 94%);
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+    height: 40px;
+    align-items: center;
+
+}
+
+.repayment input{
+    width: 30px;
+    height: 15px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: hsl(61, 70%, 52%);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .calculator{
+        width: 90%;
+    }
+
+    img{
+        width: 11rem;
+    }
+    .result{
+        width: 50%;
+        height: 44vh;
+    }
+
+    .formArea{
+        height: auto;
+    }
+
+   
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .calculator{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    img{
+        width: 10rem;
+    }
+
+    .formArea{
+        width: 90%;
+    }
+
+    .result{
+        width: 90%;
+    }
+
+    .result  h1{
+        font-size: 30px;
+    }
+
+    
+}
