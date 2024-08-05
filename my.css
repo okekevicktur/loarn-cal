@@ -36,7 +36,7 @@
 }
 .result{
     width: 50%;
-    height: 65vh;
+    height: 100vh;
     background-color: hsl(202, 55%, 16%);
     border-radius: 0 10px 10px 70px;
     display: flex;
@@ -128,7 +128,7 @@ button{
 
 
 
-@media screen and (max-width: 1024px) and (min-width: 768px){
+ {
     .calculator{
         width: 90%;
     }
@@ -146,6 +146,14 @@ button{
     }
 
    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .calculator{
+        display: block;
+    }
+    
+    
 }
 
 
